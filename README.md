@@ -1,6 +1,7 @@
 # ClimbingAccidents
 All of the data from this file is from: "an analysis of the AAC’s climbing accident reports" with the url: https://github.com/ecaroom/climbing-accidents
-I have created a new REPO while I work on an external file in hopes of creating a proper database. 
+I have created this new REPO while I work on an external file in hopes of creating a proper database.
+I am using _github-AAC_accidents_tagged_data.xlsx file from https://github.com/ecaroom/climbing-accidents primarily. 
 
 original REPO located here: https://github.com/ecaroom/climbing-accidents 
 
