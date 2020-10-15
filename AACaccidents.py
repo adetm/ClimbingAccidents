@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[ ]:
 
 
 import numpy as np
@@ -18,15 +15,11 @@ import datetime as dt
 
 # 1. Saved .xlsx as csv and Imported CSV
 
-# In[ ]:
-
 
 AAC_accidents = pd.read_csv('_github-AAC_accidents_tagged_data.csv')
 
 
 # 2. Ensured Date was in DateTime format
-
-# In[ ]:
 
 
 AAC_accidents['Publication Year'] = pd.to_datetime(AAC_accidents['Publication Year'], yearfirst=True, format = '%Y')
@@ -37,15 +30,11 @@ AAC_accidents['Publication Year'] = AAC_accidents['Publication Year'].astype(int
 
 # 3. Replaced NaN for 0
 
-# In[ ]:
-
 
 AAC_accidents= AAC_accidents.fillna(0)
 
 
 # 4. I wanted to create a new column with the location of the accident. This would involve matching the Text and accident columns to a list containing Canadian Provinces and US States
-
-# In[ ]:
 
 
 Provinces_States = ['Alabama', 'Alaska', 'American Samoa', 'Arizona', 'Arkansas', 'California',
@@ -62,19 +51,7 @@ Provinces_States = ['Alabama', 'Alaska', 'American Samoa', 'Arizona', 'Arkansas'
                  'Quebec','Saskatchewan', 'Yukon']
 
 
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
 AAC_accidents['Location'] = ''
-
-
-# In[ ]:
 
 
 for i in range(AAC_accidents.shape[0] - 1):
@@ -110,7 +87,6 @@ for i in range(AAC_accidents.shape[0] - 1):
 
 
 
-# In[ ]:
 
 
 AAC_accidents['Location'].isna().sum()
