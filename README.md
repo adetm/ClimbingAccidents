@@ -6,8 +6,8 @@ I am using _github-AAC_accidents_tagged_data.xlsx file from https://github.com/e
 original REPO located here: https://github.com/ecaroom/climbing-accidents 
 
 
-README from original repository 
-Climbing Accidents Data Repository: Analyzing 30 Years of Accident Reports
+For reference, below is the README from original repository: 
+"Climbing Accidents Data Repository: Analyzing 30 Years of Accident Reports
 
 This is a data repository for a project using natural language analysis to tag factors and analyze 30 years of climbing accident reports. The goal of this project is to help climbers better understand frequency of factors and relationships between key factors such as experience level, type of climbing, time of day, etc.
 
@@ -53,4 +53,4 @@ Attribute the data as the "an analysis of the AAC’s climbing accident reports"
 
 For publications that use the data, please cite the following: "Caroom, Eliot. Climbing Accidents Data Repository: Analyzing 30 Years of Accident Reports.”
 
-If citing the Rock & Ice analysis that uses this data: "Caroom, Eliot. Climbing Accidents Data Repository: Analyzing 30 Years of Accident Reports. Rock & Ice Issue 265, September 2020, pages 18-23."
+If citing the Rock & Ice analysis that uses this data: "Caroom, Eliot. Climbing Accidents Data Repository: Analyzing 30 Years of Accident Reports. Rock & Ice Issue 265, September 2020, pages 18-23." " original README 
