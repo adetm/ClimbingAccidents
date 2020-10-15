@@ -50,7 +50,7 @@ Provinces_States = ['Alabama', 'Alaska', 'American Samoa', 'Arizona', 'Arkansas'
                  'Northwest Territories', 'Nova Scotia','Nunavut', 'Ontario', 'Prince Edward Island' , 'PEI',
                  'Quebec','Saskatchewan', 'Yukon']
 
-
+#5. Created a new Location Column
 AAC_accidents['Location'] = ''
 
 
@@ -71,18 +71,6 @@ for i in range(AAC_accidents.shape[0] - 1):
         print()
 
     AAC_accidents['Location'].iloc[i]=location
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
